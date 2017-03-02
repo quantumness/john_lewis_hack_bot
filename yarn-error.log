@@ -1,0 +1,62 @@
+Arguments: 
+  /Users/paul.cuckoo/.nvm/versions/node/v6.10.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/paul.cuckoo/.nvm/versions/node/v6.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  6.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "botmasterfb",
+    "version": "1.0.0",
+    "description": "botmaster",
+    "main": "index.js",
+    "scripts": {
+      "start": "node app.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "tunnel": "( while true; do lt -p 3000 -s yoursubdomain; done; )"
+    },
+    "author": "reece medway",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "dependencies": {
+      "botmaster": "^2.3.0",
+      "botmaster-fulfill": "^3.1.2",
+      "botmaster-fulfill-actions": "^1.0.0",
+      "cfenv": "^1.0.3",
+      "request-promise": "^4.1.1",
+      "watson-developer-cloud": "^2.11.0"
+    },
+    "engines": {
+      "node": "7.x"
+    },
+    "devDependencies": {
+      "localtunnel": "^1.8.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: unable to get local issuer certificate
+      at Error (native)
+      at TLSSocket.<anonymous> (_tls_wrap.js:1085:38)
+      at emitNone (events.js:86:13)
+      at TLSSocket.emit (events.js:185:7)
+      at TLSSocket._finishInit (_tls_wrap.js:603:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
